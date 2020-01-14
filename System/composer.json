@@ -1,0 +1,50 @@
+{
+  "require": {
+    "psr/log": "^1.1",
+    "ext-gd": "*",
+    "ext-json": "*",
+    "psr/simple-cache": "*",
+    "symfony/cache": "^5.0",
+    "guzzlehttp/psr7": "^1.6"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "config": {
+    "platform": {
+      "ext-pcntl": "7.2",
+      "ext-posix": "7.2"
+    }
+  },
+  "autoload":{
+    "psr-4":{
+      "Elastic\\":"enhance/elastic",
+      "icePHP\\":".",
+      "Program\\":"../Program"
+    },
+    "files":[
+      "Frame/Cache/functions.php",
+      "Frame/Config/functions.php",
+      "Frame/FileLog/functions.php",
+      "Frame/Functions/functions.php",
+      "Frame/Meta/functions.php",
+      "Frame/Mongo/functions.php",
+      "Frame/Page/functions.php",
+      "Frame/Redis/functions.php",
+      "Frame/Router/functions.php",
+      "Frame/Table/functions.php",
+      "Frame/TableLog/functions.php",
+      "Frame/Write/functions.php",
+      "Frame/MVC/functions.php",
+      "Frame/Debug/functions.php",
+      "Frame/Upload/functions.php",
+      "Frame/Container/functions.php",
+      "Frame/Email/functions.php"
+    ]
+  }
+}

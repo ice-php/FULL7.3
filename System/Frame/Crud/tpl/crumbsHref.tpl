@@ -1,0 +1,1 @@
+<a class="once" href="{$url}">{$name}</a>

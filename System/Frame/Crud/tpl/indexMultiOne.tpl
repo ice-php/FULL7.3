@@ -1,0 +1,1 @@
+<td><input type="checkbox" class="checkOne" data-id="{$row->{$primaryKey}}"></td>

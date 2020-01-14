@@ -1,0 +1,66 @@
+{
+  "require": {
+    "workerman/workerman": "^3.5.3",
+    "phpunit/phpunit": "^7.4",
+    "jpush/jpush": "^3.5",
+    "textalk/websocket": "1.0.*",
+    "mongodb/mongodb": "^1.4",
+    "swiftmailer/swiftmailer": "^6.0",
+    "psr/log": "^1.1",
+    "psr/cache": "^1.0",
+    "psr/simple-cache": "*",
+    "skyeng/php-lemmatizer": "^1.0",
+    "whichbrowser/parser": "^2.0",
+    "ext-gd": "*",
+    "ext-PDO": "*",
+    "ext-json": "*",
+    "ext-pdo": ">=0.1.0",
+    "symfony/cache": "^5.0",
+    "guzzlehttp/psr7": "^1.6",
+    "psr/container": "^1.0",
+    "psr/link": "^1.0",
+    "ext-pcntl": "*",
+    "sunrise/uri": "^1.0",
+    "sunrise/http-client-curl": "^1.2"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "config": {
+    "platform": {
+      "ext-pcntl": "7.2",
+      "ext-posix": "7.2"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Elastic\\": "enhance/elastic",
+      "icePHP\\": ".",
+      "Program\\": "../Program"
+    },
+    "files": [
+      "Frame/Cache/functions.php",
+      "Frame/Config/functions.php",
+      "Frame/FileLog/functions.php",
+      "Frame/Functions/functions.php",
+      "Frame/Meta/functions.php",
+      "Frame/Mongo/functions.php",
+      "Frame/Page/functions.php",
+      "Frame/Redis/functions.php",
+      "Frame/Router/functions.php",
+      "Frame/Table/functions.php",
+      "Frame/TableLog/functions.php",
+      "Frame/Write/functions.php",
+      "Frame/MVC/functions.php",
+      "Frame/Debug/functions.php",
+      "Frame/Upload/functions.php",
+      "Frame/Container/functions.php",
+      "Frame/Email/functions.php"
+    ]
+  }
+}

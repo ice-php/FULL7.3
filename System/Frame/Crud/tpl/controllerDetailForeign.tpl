@@ -1,0 +1,1 @@
+->map('{$table}',['{$fieldName}'=>'{$key}'],['{$value}'=>'{$fieldName}_{$value}'])

@@ -1,0 +1,1 @@
+<th style="width: 70px;"><span class="checkall"><input type="checkbox" id="checkall" class="checka"></span></th>
